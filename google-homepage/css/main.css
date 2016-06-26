@@ -1,0 +1,109 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f2f7f9;
+	font-family: Arial, sans-serif;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.cf:before, .cf:after {
+	content: " ";
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 1200px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.top-nav {
+	float: right;
+	padding: 20px 0;
+	height: 55px;
+}
+
+.top-nav .text {
+	float: left;
+	font-size: 14px;
+}
+
+.top-nav .text a {
+	color: #555;
+}
+
+.top-nav a:hover {
+	text-decoration: underline;
+}
+
+.top-nav .icons {
+	float: right;
+	color: #757575;
+}
+
+.top-nav a i {
+	color: #555;
+}
+
+.top-nav a {
+	padding: 20px 10px 0;
+}
+
+.google {
+	clear: both;
+	margin-top: 30px;
+	padding-top: 100px;
+	min-height: 85vh;
+}
+
+.main-footer {
+	clear: both;
+	border-top: #e4e4e4 solid 1px;
+}
+
+.bottom-nav {
+	padding: 10px 0;
+}
+
+.left-nav li, .right-nav li {
+	padding: 5px 10px;
+	display: inline-block;
+}
+
+.left-nav a, .right-nav a {
+	color: #555;
+}
+
+.left-nav a:hover, .right-nav a:hover {
+	text-decoration: underline;
+}
+
+.left-nav {
+	float: left;
+}
+
+.right-nav {
+	float: right;
+}
