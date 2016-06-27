@@ -76,6 +76,50 @@ a {
 	margin-top: 30px;
 	padding-top: 100px;
 	min-height: 85vh;
+	text-align: center;
+}
+
+.logo img {
+	max-height: 140px;
+}
+
+form {
+	max-width: 50%;
+	margin: 20px auto;
+}
+
+input[type="text"] {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #e4e4e4;
+}
+
+.mic {
+	color: #4285F4;
+}
+
+.fa-microphone {
+	float: right;
+	position: relative;
+	top: -35px;
+	vertical-align: middle;
+	font-size: 24px;
+	padding: 2px 10px 5px;
+}
+
+.buttons {
+	clear: both;
+	margin: 10px 0;
+}
+
+.buttons .button {
+	display: inline-block;
+	background-color: #f5f5f5;
+	padding: 5px 10px;
+	margin: 0 10px;
+	color: #222;
+	border-radius: 3px;
+	border: 1px solid #e4e4e4;
 }
 
 .main-footer {
