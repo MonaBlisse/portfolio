@@ -122,6 +122,10 @@ input[type="text"] {
 	border: 1px solid #e4e4e4;
 }
 
+.buttons .button:hover {
+	background: #e4e4e4;
+}
+
 .main-footer {
 	clear: both;
 	border-top: #e4e4e4 solid 1px;
